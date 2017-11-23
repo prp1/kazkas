@@ -1,7 +1,7 @@
 import * as React from 'react';
-import './Nav.css';
+import './Header.css';
 
-export class Nav extends React.Component {
+export class Header extends React.Component {
     public render() {
         return (
             <nav className="nav">

@@ -2,7 +2,7 @@ import * as React from 'react';
 import './App.css';
 import { observer } from 'mobx-react';
 import { AppStore } from './AppStore';
-import { Nav } from './components/Nav/Nav';
+import { Header } from './components/Header/Header';
 import { Button } from './components/Button/Button';
 
 const appStore = new AppStore();
@@ -16,7 +16,7 @@ class App extends React.Component {
     public render() {
         return (
             <div className="App">
-                <Nav />
+                <Header />
                 {appStore.isLoading ? 'Loading...' : 'Hello'}
                 <br />
                 <br />
