@@ -1,12 +1,12 @@
 import * as React from 'react';
-// import './App.css';
+import './Nav.css';
 
 export class Nav extends React.Component {
 
   public render() {
     return (
-      <nav className="Nav">
-          <h1>Visma ML-service</h1>
+      <nav className="nav">
+          <h1 className="navTitle">Visma ML-service</h1>
       </nav>
     );
   }

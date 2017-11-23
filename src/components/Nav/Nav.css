@@ -1,0 +1,13 @@
+/* $nav-bg-color: #0078cd; */
+
+.nav {
+    background: #0078cd;
+}
+
+.navTitle {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: normal;
+}
