@@ -4,6 +4,7 @@ import { observer } from 'mobx-react';
 import { AppStore } from './AppStore';
 import { Header } from './components/Header/Header';
 import { Button } from './components/Button/Button';
+import { Method } from './components/Method/Method';
 
 const appStore = new AppStore();
 
@@ -19,6 +20,8 @@ class App extends React.Component {
                 <Header />
                 {appStore.isLoading ? 'Loading...' : 'Hello'}
                 <br />
+                <br />
+                <Method appStore={appStore} />
                 <br />
                 <br />
                 <Button
